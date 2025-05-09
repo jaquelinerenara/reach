@@ -1,6 +1,5 @@
-const Filter = ({ filter, setFilter, setSort }) => {
-  return (
-    <div className="filter">
+export const Filter = ({ filter, setFilter, setSort }) => (
+  <div className="filter">
         <h3>Filtrar:</h3>
         <div className="filter-options">
             <div>
@@ -18,7 +17,4 @@ const Filter = ({ filter, setFilter, setSort }) => {
             </div>
         </div>
     </div>
-  )
-}
-
-export default Filter;
+)

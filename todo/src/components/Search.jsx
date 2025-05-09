@@ -1,5 +1,4 @@
-const Search = ({ search, setSearch }) => {
-    return (
+export const Search = ({ search, setSearch }) => (
     <div className="search">
         <h2>Pesquisar:</h2>
         <input
@@ -9,7 +8,4 @@ const Search = ({ search, setSearch }) => {
          placeholder="Digite para pesquisar..."
          />
     </div>
-    );
-};
-
-export default Search;
+)
